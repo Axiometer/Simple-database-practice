@@ -18,7 +18,7 @@ e.g. {index_000: {"index": index_1000, "playerID": '007', "Height" : '160', "Wei
 
 When searching by template, it has to match every entry in the dictionary. The time complexity is O(n). 
 
-# Correctness rules (Applied to both CSVTable and RDBTable implementation)
+# Correctness rules
 
 1). Inserting a duplicate primary key is forbidden. 
 The principle is also work during data loading phrase. 
